@@ -3,7 +3,7 @@
 
 <%= javascript_include_tag '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' %>
 
-<h1>Upload an image</h1>
+<h1>Upload a song</h1>
 <%= form_for Upload.new, :html => { :id => 'upload' } do |form| %>
   <%= transloadit :audio_file %>
   <%= form.label      :file, 'File to upload' %>
