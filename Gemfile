@@ -30,6 +30,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'jquery-rails'
 gem 'pry-rails'
 
+gem 'transloadit-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
