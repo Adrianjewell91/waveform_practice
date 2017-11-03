@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The only unique thing I did here was stick a Postgres Database onto the Transloadit tutorial, and in that databased I stored urls and titles for each
+wave form that I created.
 
-Things you may want to cover:
+Then, I built the index page and a create method in the controller so that links to waveforms would be saved when they were made...kind of like a mini paperclip.
 
-* Ruby version
+I also stored them in my AWS S3 bucket.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+Have a look around.
 * ...
